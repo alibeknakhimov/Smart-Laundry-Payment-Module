@@ -20,7 +20,6 @@ A custom ESP8266‑based control board that starts a washing machine **only afte
 * **Contact‑less payment** – customers pay inside their regular banking app, no extra app required.
 * **Safe appliance control** – three optocouplers isolate low‑voltage logic from the washer’s 230 V electronics.
 * **Minimal UI** – BOOT & RST tactile buttons and a UART header for debugging.
-* **OTA‑ready** – firmware organised for future over‑the‑air updates.
 * **CNC‑milled PCB** – single‑sided FR‑4 milled on a desktop CNC.
 
 ---
