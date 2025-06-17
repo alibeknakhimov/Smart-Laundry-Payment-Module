@@ -6,7 +6,7 @@
 
 ## 📋 Project overview
 
-A custom ESP8266‑based control board that starts a washing machine **only after the customer has paid via a Kazakhstan bank’s (Kaspi Bank) mobile app**.  The module mimics the machine’s rotary‑encoder signals through optocouplers, so the washer “thinks” a user turned the knob locally.  All payment logic lives on a remote server; the board polls that server over HTTP and triggers the wash cycle once payment is confirmed.
+A custom ESP8266‑based control board that starts a washing machine **only after the customer has paid via a Kazakhstan bank’s ([`Kaspi Bank`](https://kaspi.kz/)) mobile app**.  The module mimics the machine’s rotary‑encoder signals through optocouplers, so the washer “thinks” a user turned the knob locally.  All payment logic lives on a remote server; the board polls that server over HTTP and triggers the wash cycle once payment is confirmed.
 
 | Role                                         | Team size   |
 | -------------------------------------------- | ----------- |
