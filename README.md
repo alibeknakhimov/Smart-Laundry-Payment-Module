@@ -69,7 +69,7 @@ firmware/
     └── ...
 ```
 
-### 1 · Configure secrets
+### Configure secrets
 
 Copy `config_example.h` → `config.h` and fill in **your** Wi‑Fi SSID, password, server host and API path. The real `config.h` is ignored by Git via `.gitignore`.
 
@@ -79,14 +79,6 @@ const char* ssid     = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
 const char* host     = "example.com";          // e.g. nbh-soft.kz
 const char* apiPath  = "/api/v1/payments/";    // MUST end with slash
-```
-
-### 2 · Build & flash
-
-```bash
-$ cd firmware
-# compile & upload over USB‑TTL
-$ platformio run -t upload -p /dev/ttyUSB0
 ```
 
 ---
