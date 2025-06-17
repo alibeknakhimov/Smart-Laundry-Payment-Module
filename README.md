@@ -41,7 +41,6 @@ A custom ESP8266‑based control board that starts a washing machine **only afte
 
 ![Block diagram](media/photos/block-diagram.png)
 
-*PNG file is stored in `media/photos/block-diagram.png`. Replace the image if you redraw the scheme.*
 
 ---
 
@@ -49,7 +48,7 @@ A custom ESP8266‑based control board that starts a washing machine **only afte
 
 1. Identify A/B signals of the washer’s rotary encoder.
 2. Solder the optocoupler outputs in parallel to these lines.
-3. Feed 5 V – 12 V into the board’s VIN; AMS1117 down‑regulates to 3.3 V.
+3. Feed 5 V into the board’s VIN; AMS1117 down‑regulates to 3.3 V.
 
 > ⚠️ **230 V hazard** – installation must be performed by qualified personnel.
 
@@ -57,15 +56,14 @@ A custom ESP8266‑based control board that starts a washing machine **only afte
 
 ## 💻 Firmware
 
-Project uses **PlatformIO + Arduino core for ESP8266**.
+Project uses **Arduino IDE for ESP8266**.
 
 ```
 firmware/
-├── platformio.ini          # build settings
-└── src/
-    ├── main.cpp            # state machine, HTTP polling
-    ├── config_example.h    # template for secrets (copy → config.h)
-    └── ...
+├── main/
+│    └── main.cpp            # state machine, HTTP polling
+│    └── config_example.h    # template for secrets (copy → config.h)
+│    └── ...
 ```
 
 ### Configure secrets
