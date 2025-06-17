@@ -35,7 +35,6 @@ A custom ESP8266‑based control board that starts a washing machine **only afte
 
 *Schematics & PCB files live in* [`hardware/`](hardware/).
 
-## 🛠️ Hardware Overview
 
 - `Schematic.pdf` – Full circuit diagram
 - `PCB.pdf` – PCB trace view
