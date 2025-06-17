@@ -130,20 +130,6 @@ media/videos/
 
 ---
 
-## 📝 License
-
-No open‑source license applied yet – repository shared for portfolio purposes.
-
----
-
-## 🙋‍♂️ Author
-
-**Your Name** – electronics design, PCB layout, firmware, integration.
-
-Feel free to reach out: [your.email@example.com](mailto:your.email@example.com)
-
----
-
 ## 🗂️ Repository structure
 
 ```
