@@ -153,17 +153,7 @@ laundry-payment-module/
 ├── media/
 │   ├── photos/         # images
 │   └── videos/         # demos
-├── docs/
-│   └── api.md          # server endpoints & flow
 ├── .gitignore          # excludes config.h and build artifacts
 └── README.md           # → you are here
 ```
 
----
-
-## ✅ Roadmap / to‑do
-
-* [ ] Upload Gerber + drill files.
-* [ ] Add installation photos & video link.
-* [ ] Finish `docs/api.md` with XML examples.
-* [ ] Decide whether to add an MIT/BSD license.
