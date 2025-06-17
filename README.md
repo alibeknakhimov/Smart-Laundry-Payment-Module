@@ -31,7 +31,7 @@ A custom ESP8266‑based control board that starts a washing machine **only afte
 | MCU               | ESP-12F (ESP8266)                                  |
 | Voltage regulator | AMS1117-3.3 V                                      |
 | Optocouplers      | 3 × PC817 (or equivalent)                          |
-| Misc              | 10 µF + 560 uF, resistors, pin‑headers, tactile switches |
+| Misc              | capacitors, resistors, pin‑headers, tactile switches |
 
 *Schematics & PCB files live in* [`hardware/`](hardware/).
 
