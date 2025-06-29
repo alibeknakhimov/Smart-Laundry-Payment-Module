@@ -126,16 +126,10 @@ Explore detailed photos and demo videos to see how everything works in action.
 
 ---
 
-## 🗂️ Repository structure
+## 🗂️ Project structure
 
-```
-laundry-payment-module/
-├── hardware/           # EasyEDA schematic & PCB
-├── firmware/           # ESP8266 source (PlatformIO)
-├── media/
-│   ├── photos/         # images
-│   └── videos/         # demos
-├── .gitignore          # excludes config.h and build artifacts
-└── README.md           # → you are here
-```
-
+| Folder            | Description                             |
+|-------------------|-----------------------------------------|
+| `hardware/`       | EasyEDA schematic & PCB                 |
+| `firmware/`       | ESP8266 source (PlatformIO)             |
+| `media/`          | Media content photos and videos         |
