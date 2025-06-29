@@ -115,14 +115,14 @@ Detailed request/response examples live in [`docs/api.md`](docs/api.md).
 
 ---
 
-## 📸 Media
+## 📸 Project Media Library
 
-High‑res photos and demo videos live in:
+Explore detailed photos and demo videos to see how everything works in action.
 
-```
-media/photos/
-media/videos/
-```
+📂 `media/photos/` — prototype shots, hardware, installations
+📂 `media/videos/` — short demo clips, real usage footage
+
+
 
 ---
 
