@@ -119,7 +119,7 @@ Detailed request/response examples live in [`docs/api.md`](docs/api.md).
 
 Explore detailed photos and demo videos to see how everything works in action.
 
-📂 [`Photos`](media/photos/) — prototype shots, hardware, installations.
+📂 [`Photos`](media/photos/) — prototype shots, hardware, installations.  
 📂 [`Videos`](media/videos/) — short demo clips, real usage footage.
 
 
